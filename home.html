@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body class="bodys">
+    <div class="container">
+      <form method="POST" class="form">
+        <fieldset>
+          <legend>Datos personales</legend>
+          <label for="name" name="name">Nombre</label><br />
+          <input
+            type="text"
+            id="name"
+            placeholder="escribe tu nombre"
+            required="true"
+          /><br />
+
+          <label for="apellido" name="apellido">Apellido</label><br />
+          <input
+            type="text"
+            id="apellido"
+            placeholder="Escribe tu apellido"
+            required="true"
+          /><br />
+          <label for="password" name="name">password</label><br />
+          <input
+            type="password"
+            id="password"
+            placeholder="Introduce tu contraceña"
+            required="true"
+          /><br />
+          <label for="genero">femenino</label>
+          <input type="radio" id="genero" name="genero" required="true" /><br />
+          <label for="genero">masculino</label>
+          <input type="radio" id="genero" name="genero" required="true" /><br />
+
+          <label for="genero" class="select">digite su genero</label>
+          <select name="genero" id="genero">
+            <option value="femenino">femenino</option>
+            <option value="masculino">masculino</option>
+            <br /></select
+          ><br />
+
+          <label for="comentario" class="coment">comentario</label>
+          <textarea
+            name="comentario"
+            id="comentario"
+            cols="40"
+            rows="5"
+          ></textarea
+          ><br />
+          <button class="bot" type="submit">enviar</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

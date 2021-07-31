@@ -1,0 +1,31 @@
+html {
+  height: 0;
+  width: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  height: 300px;
+}
+
+.bodys {
+  width: 50%;
+  border: 1px;
+  background: rgba(161, 46, 136, 0.904);
+  display: flex;
+}
+.form{
+  margin: 20px;
+  
+}
+.form label{
+  color: white;
+}
+.bot{
+  margin-top: 33px;
+}
